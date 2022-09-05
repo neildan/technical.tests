@@ -15,4 +15,4 @@ function FirstReverse(str) {
     newArrayStr[i] = str.split("")[str.length - 1 - i];
   return newArrayStr.join("");
 }
-console.log(FirstReverse(readline()));
+console.log(FirstReverse("Daniel"));
